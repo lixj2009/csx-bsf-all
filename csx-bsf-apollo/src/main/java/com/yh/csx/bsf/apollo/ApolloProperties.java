@@ -3,7 +3,7 @@ package com.yh.csx.bsf.apollo;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-08-12 09:55
  **/
 @ConfigurationProperties

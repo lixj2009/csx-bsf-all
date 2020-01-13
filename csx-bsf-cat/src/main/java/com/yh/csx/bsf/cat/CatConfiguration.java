@@ -17,7 +17,7 @@ import com.yh.csx.bsf.core.config.BsfConfiguration;
 import com.yh.csx.bsf.core.util.LogUtils;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-05-27 17:18
  **/
 @org.springframework.context.annotation.Configuration

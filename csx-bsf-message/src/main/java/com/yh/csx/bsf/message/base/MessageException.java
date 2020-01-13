@@ -3,7 +3,7 @@ package com.yh.csx.bsf.message.base;
 import com.yh.csx.bsf.core.base.BsfException;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-06-13 17:45
  **/
 public class MessageException extends BsfException {

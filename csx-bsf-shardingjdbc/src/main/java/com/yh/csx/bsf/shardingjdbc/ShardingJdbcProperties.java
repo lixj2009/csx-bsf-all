@@ -3,7 +3,7 @@ package com.yh.csx.bsf.shardingjdbc;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-08-12 15:35
  **/
 @ConfigurationProperties

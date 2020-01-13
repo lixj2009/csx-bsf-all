@@ -1,7 +1,7 @@
 package com.yh.csx.bsf.mq.base;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-06-12 15:34
  * 订阅回调接口
  **/

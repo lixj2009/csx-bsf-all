@@ -6,7 +6,7 @@ import com.yh.csx.bsf.health.config.HealthProperties;
 import com.yh.csx.bsf.health.warn.WarnProvider;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-07-23 18:47
  **/
 public abstract class AbstractCollectTask implements AutoCloseable {

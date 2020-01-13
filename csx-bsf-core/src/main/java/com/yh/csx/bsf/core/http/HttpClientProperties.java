@@ -15,7 +15,7 @@ import java.lang.reflect.Method;
 import java.util.Properties;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-07-23 17:54
  **/
 @ConfigurationProperties

@@ -3,7 +3,7 @@ package com.yh.csx.bsf.core.http;
 import com.yh.csx.bsf.core.base.BsfException;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-07-22 20:34
  **/
 public class HttpException extends BsfException {

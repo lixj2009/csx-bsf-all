@@ -20,7 +20,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-06-12 13:01
  * rocketmq的消费者封装使用提供类
  **/

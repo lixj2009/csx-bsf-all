@@ -6,7 +6,7 @@ import com.yh.csx.bsf.core.serialize.JsonSerializer;
 import java.lang.reflect.Type;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-07-28 14:59
  **/
 public class JsonUtils {

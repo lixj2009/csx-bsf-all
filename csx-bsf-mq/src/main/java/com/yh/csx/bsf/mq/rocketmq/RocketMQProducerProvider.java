@@ -13,7 +13,7 @@ import com.yh.csx.bsf.mq.base.AbstractProducerProvider;
 import com.yh.csx.bsf.mq.base.MQException;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-06-12 13:01
  * rocketmq生产者提供使用提供类
  **/

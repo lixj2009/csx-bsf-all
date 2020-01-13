@@ -1,7 +1,7 @@
 package com.yh.csx.bsf.core.base;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-06-12 14:34
  **/
 public class BsfException extends RuntimeException {

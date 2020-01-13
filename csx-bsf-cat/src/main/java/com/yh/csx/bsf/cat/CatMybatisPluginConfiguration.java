@@ -40,7 +40,7 @@ import com.yh.csx.bsf.core.util.StringUtils;
 import lombok.val;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-08-31 10:18
  **/
 @Configuration

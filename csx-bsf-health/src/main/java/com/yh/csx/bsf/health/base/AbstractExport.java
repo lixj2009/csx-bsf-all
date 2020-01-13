@@ -1,7 +1,7 @@
 package com.yh.csx.bsf.health.base;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-08-13 19:54
  **/
 public class AbstractExport implements AutoCloseable {

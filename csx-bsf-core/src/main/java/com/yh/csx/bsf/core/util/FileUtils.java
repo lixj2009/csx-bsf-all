@@ -5,7 +5,7 @@ import com.yh.csx.bsf.core.base.BsfException;
 import java.io.*;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-09-25 15:35
  **/
 public class FileUtils {

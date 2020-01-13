@@ -1,6 +1,6 @@
 # csx-bsf-all
 ## 介绍
-BSF 为 base service framework 的简写，定义为永辉彩食鲜技术团队的基础框架,用于基础服务的集成和跟业务无关的基础技术集成。
+BSF 为 base service framework 的简写，定义为技术团队的基础框架,用于基础服务的集成和跟业务无关的基础技术集成。
 
 BSF集成了自研的监控报警，用来监控各个服务系统的性能及异常告警。集成并封装Apollo,Rocket MQ,Redis, Elastic Search,ELK,XXLJOB, Sharding JDBC,Cat,Eureka,七牛云等第三方中间件，提供简易使用的底层框架。
 
@@ -107,9 +107,3 @@ mvn versions:set -DgenerateBackupPoms=false -DnewVersion={version}
     mvn install 
     ```
 
-## 参与贡献
-架构师: [车江毅](https://gitee.com/chejiangyi)  
-开发: 黄兆平,刘建强  
-维护: 王志斌  
-
-##### by 车江毅

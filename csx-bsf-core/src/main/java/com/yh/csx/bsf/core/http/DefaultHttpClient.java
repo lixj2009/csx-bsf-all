@@ -28,7 +28,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Created by yanglikai on 2019/5/23.
- * by chejiangyi
+ * by
  */
 public class DefaultHttpClient implements HttpClient {
   static {

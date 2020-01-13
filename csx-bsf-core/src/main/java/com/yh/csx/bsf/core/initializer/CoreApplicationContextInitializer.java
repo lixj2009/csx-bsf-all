@@ -22,7 +22,7 @@ import java.util.Random;
 import java.util.UUID;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-06-14 19:02
  **/
 public class CoreApplicationContextInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {

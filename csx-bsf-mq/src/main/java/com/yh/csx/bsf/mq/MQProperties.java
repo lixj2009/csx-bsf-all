@@ -3,7 +3,7 @@ package com.yh.csx.bsf.mq;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-08-12 15:15
  **/
 @ConfigurationProperties

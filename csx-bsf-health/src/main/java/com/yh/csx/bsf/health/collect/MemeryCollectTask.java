@@ -12,7 +12,7 @@ import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryPoolMXBean;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-07-23 19:07
  **/
 public class MemeryCollectTask extends AbstractCollectTask {

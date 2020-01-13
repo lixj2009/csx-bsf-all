@@ -10,7 +10,7 @@ import org.springframework.util.StringUtils;
 
 /**
  * Eureka 注册
- * @author: chejiangyi
+ * @author:
  * @version: 2019-05-28 12:08
  **/
 public class EurekaApplicationContextInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {

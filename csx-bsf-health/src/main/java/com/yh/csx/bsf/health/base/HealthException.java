@@ -3,7 +3,7 @@ package com.yh.csx.bsf.health.base;
 import com.yh.csx.bsf.core.base.BsfException;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-07-24 15:33
  **/
 public class HealthException extends BsfException {

@@ -1,7 +1,7 @@
 package com.yh.csx.bsf.health.base;
 
 /**
- * @author: chejiangyi
+ * @author:
  * @version: 2019-07-23 20:16
  **/
 public enum EnumWarnType {
