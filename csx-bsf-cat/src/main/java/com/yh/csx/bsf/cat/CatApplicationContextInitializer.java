@@ -5,7 +5,7 @@ import com.yh.csx.bsf.core.util.PropertyUtils;
 import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-05-28 14:31
  **/
 public class CatApplicationContextInitializer implements ApplicationContextInitializer<ConfigurableApplicationContext> {

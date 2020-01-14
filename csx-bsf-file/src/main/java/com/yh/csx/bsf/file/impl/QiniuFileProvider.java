@@ -108,7 +108,9 @@ public class QiniuFileProvider extends AbstractFileProvider {
         String path;
         try {
             path = new URL(url).getPath();
-            if (path.startsWith("/")) path = path.substring(1);
+            if (path.startsWith("/")) { 
+            	path = path.substring(1);
+            }
         } catch (MalformedURLException e) {
             throw new FileException("URL错误：" + url, e);
         }

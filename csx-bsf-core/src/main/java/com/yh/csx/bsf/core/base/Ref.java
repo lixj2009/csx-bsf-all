@@ -3,7 +3,7 @@ package com.yh.csx.bsf.core.base;
 import lombok.Data;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-08-02 11:18
  * 模拟out和ref语法
  **/

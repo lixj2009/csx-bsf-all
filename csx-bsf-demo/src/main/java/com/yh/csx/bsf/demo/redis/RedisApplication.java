@@ -19,6 +19,9 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.SynchronousQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 /**
  * @author Huang Zhaoping
@@ -175,7 +178,7 @@ public class RedisApplication {
 
     @GetMapping("/testLock")
     public String testBatch(int threads, int times) {
-        ExecutorService service = Executors.newCachedThreadPool();
+        ExecutorService service = new ThreadPoolExecutor(0, Integer.MAX_VALUE, 60L, TimeUnit.SECONDS, new SynchronousQueue<Runnable>());
         CountDownLatch count = new CountDownLatch(threads);
         for (int i = 0; i < threads; i++) {
             final String key = "lock-" + (i % 10);

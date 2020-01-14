@@ -5,7 +5,7 @@ import org.apache.shardingsphere.api.sharding.hint.HintShardingValue;
 import java.util.Collection;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-10-24 14:17
  * 数据源分库算法
  *

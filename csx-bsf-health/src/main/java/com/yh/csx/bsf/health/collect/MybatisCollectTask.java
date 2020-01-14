@@ -8,7 +8,7 @@ import lombok.Data;
 import lombok.val;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-08-02 09:41
  **/
 public class MybatisCollectTask extends AbstractCollectTask {

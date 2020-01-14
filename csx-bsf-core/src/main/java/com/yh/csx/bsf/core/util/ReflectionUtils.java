@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-07-31 09:54
  **/
 public class ReflectionUtils {
@@ -197,10 +197,14 @@ public class ReflectionUtils {
     }
 
     public static <T> T tryGetValue(Object obj, String path, T deft) {
-        if (obj == null || path == null || path.length() == 0) return deft;
+        if (obj == null || path == null || path.length() == 0) { 
+        	return deft;
+        }
         Object object = obj;
         for(String name : path.split("\\.")){
-            if (object == null) break;
+            if (object == null) {
+            	break;
+            }
             Object value = tryGetFieldValue(object, name, null);
             if (value == null) {
                 object = tryCallMethod(object, name, null, null);

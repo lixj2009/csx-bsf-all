@@ -40,7 +40,9 @@ public class HttpPoolCollectTask extends AbstractCollectTask {
     @Override
     protected Object getData() {
         ConcurrentHashMap<String, DefaultHttpClient> pool = ReflectionUtils.getFieldValue (HttpClientManager.Default, "pool");
-        if (pool == null) return null;
+        if (pool == null) { 
+        	return null;
+        }
         HttpPoolInfo data = new HttpPoolInfo();
         StringBuilder detail = new StringBuilder();
         pool.forEach((id, client)->{

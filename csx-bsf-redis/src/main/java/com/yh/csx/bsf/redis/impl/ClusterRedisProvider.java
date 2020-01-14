@@ -155,9 +155,11 @@ public class ClusterRedisProvider extends AbstractRedisProvider implements Redis
     @Override
     public <T> List<T> get(String key, String[] fields, Class<T> type) {
         return this.redisMonitor.hook().run("get",()-> {
-            if (fields == null || fields.length == 0) return Collections.emptyList();
+            if (fields == null || fields.length == 0) { return Collections.emptyList();}
             List<String> list = jedisCluster.hmget(newKey(key), fields);
-            if (list == null) return Collections.emptyList();
+            if (list == null) {
+            	return Collections.emptyList();
+            }
             if (type == String.class) {
                 return (List<T>) list;
             } else {
@@ -169,7 +171,7 @@ public class ClusterRedisProvider extends AbstractRedisProvider implements Redis
     @Override
     public <T> List<T> get(String key, Collection<String> fields, Class<T> type) {
         return this.redisMonitor.hook().run("get",()-> {
-            if (fields == null || fields.size() == 0) return Collections.emptyList();
+            if (fields == null || fields.size() == 0) { return Collections.emptyList();}
             return get(key, fields.toArray(new String[fields.size()]), type);
         });
     }

@@ -3,7 +3,7 @@ package com.yh.csx.bsf.message.dingding;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-08-12 15:10
  **/
 @ConfigurationProperties

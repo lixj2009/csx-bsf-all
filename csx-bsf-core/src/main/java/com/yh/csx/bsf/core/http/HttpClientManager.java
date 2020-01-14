@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-07-23 16:30
  * HttpClient使用管理器
  **/

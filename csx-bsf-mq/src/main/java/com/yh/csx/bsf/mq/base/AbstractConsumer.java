@@ -5,11 +5,11 @@ import com.yh.csx.bsf.mq.MQProperties;
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-06-12 12:54
  * 消费者抽象
  **/
-public abstract class AbstractConsumer extends AbstractMQ  {
+public class AbstractConsumer extends AbstractMQ  {
     @Override
     public void close(){
         try {

@@ -7,7 +7,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 import java.util.Arrays;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-07-03 19:13
  * 获取上下文
  **/

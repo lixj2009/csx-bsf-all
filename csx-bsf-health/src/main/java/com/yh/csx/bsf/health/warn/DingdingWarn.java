@@ -12,7 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-07-23 20:13
  **/
 public class DingdingWarn extends AbstractWarn {

@@ -7,7 +7,7 @@ import java.util.Enumeration;
 import java.util.regex.Pattern;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-08-09 19:56
  * 
  * 增加过滤IP
@@ -131,8 +131,9 @@ public class NetworkUtils {
 			sb.append("|(^").append(strSource[i]).append(".*)");
 		}
 		String regex=sb.toString();
-		if(!StringUtils.isEmpty(regex))
+		if(!StringUtils.isEmpty(regex)) {
 			return regex.substring(1);//去掉开头|号
+		}
 		return "";
 	}	
 }

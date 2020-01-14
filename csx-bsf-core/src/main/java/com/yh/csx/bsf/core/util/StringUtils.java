@@ -1,7 +1,7 @@
 package com.yh.csx.bsf.core.util;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-07-24 11:00
  **/
 public class StringUtils {

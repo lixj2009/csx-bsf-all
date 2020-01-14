@@ -3,7 +3,7 @@ package com.yh.csx.bsf.health.base;
 import java.lang.annotation.*;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-07-28 09:36
  **/
 @Target({ElementType.FIELD})

@@ -22,7 +22,7 @@ import org.springframework.context.annotation.Import;
 
 /**
  * @version : 2019-05-27 14:30
- * @author:
+ * @author: chejiangyi
  **/
 @Configuration
 @EnableConfigurationProperties(ElkProperties.class)

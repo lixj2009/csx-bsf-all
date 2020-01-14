@@ -17,7 +17,7 @@ import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-07-23 20:20
  **/
 public class WarnProvider extends AbstractWarn implements AutoCloseable {

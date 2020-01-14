@@ -16,7 +16,7 @@ import org.springframework.context.annotation.Lazy;
 import org.springframework.util.StringUtils;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-06-12 15:19
  * rocketmq配置初始化
  **/

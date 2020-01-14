@@ -4,7 +4,7 @@ import com.yh.csx.bsf.core.util.PropertyUtils;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-07-23 21:54
  **/
 @ConfigurationProperties

@@ -6,7 +6,7 @@ import com.yh.csx.bsf.core.base.BsfException;
 import lombok.val;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-09-25 20:52
  * 动态对象动态访问
  * 动态方式:a.@index.字段.c方式访问对象
@@ -53,18 +53,18 @@ public class DynamicObj {
 
     public <T> T changeType(JsonNode jsonNode,Class<T> cls){
         String name = cls.getSimpleName();
-        if(name.equals("String")){
+        if("String".equals(name)){
             return (T)jsonNode.asText();
         }
-        else if(name.equals("Object")){
+        else if("Object".equals(name)){
             return (T)jsonNode;
         }
-        else if(name.equals("Long")){
+        else if("Long".equals(name)){
             return (T)new Long(jsonNode.asLong());
         }
-        else if(name.equals("Int")){
+        else if("Int".equals(name)){
             return (T)new Integer(jsonNode.asInt());
-        }else if(name.equals("Boolean")){
+        }else if("Boolean".equals(name)){
             return (T)new Boolean(jsonNode.asBoolean());
         }
         return null;

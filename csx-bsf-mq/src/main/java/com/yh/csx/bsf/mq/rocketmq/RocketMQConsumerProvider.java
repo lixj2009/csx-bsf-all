@@ -20,7 +20,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.List;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-06-12 13:01
  * rocketmq的消费者封装使用提供类
  **/
@@ -117,9 +117,4 @@ public class RocketMQConsumerProvider extends AbstractConsumerProvider{
          }
     }
 
-    @Override
-    public void close() {
-
-        super.close();
-    }
 }

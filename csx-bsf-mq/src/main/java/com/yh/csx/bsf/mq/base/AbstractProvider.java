@@ -1,8 +1,12 @@
 package com.yh.csx.bsf.mq.base;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-06-12 15:03
  **/
-public abstract class AbstractProvider implements AutoCloseable {  
+public class AbstractProvider implements AutoCloseable {
+
+	@Override
+	public void close() throws Exception {
+	}  
 }

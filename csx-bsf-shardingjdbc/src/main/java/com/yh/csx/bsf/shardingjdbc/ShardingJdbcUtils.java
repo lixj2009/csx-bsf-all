@@ -4,7 +4,7 @@ import com.yh.csx.bsf.core.base.Callable;
 import org.apache.shardingsphere.api.hint.HintManager;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-09-01 14:16
  **/
 public class ShardingJdbcUtils {

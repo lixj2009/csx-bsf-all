@@ -24,7 +24,7 @@ import java.util.*;
 
 /**
  * Created by yanglikai on 2019/5/23.
- * by
+ * by chejiangyi
  */
 public interface HttpClient extends Closeable {
   String get(String var1);

@@ -1,7 +1,7 @@
 package com.yh.csx.bsf.core.base;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-05-27 13:44
  **/
 public enum Environment {

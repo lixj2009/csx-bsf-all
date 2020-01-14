@@ -13,7 +13,7 @@ import lombok.Data;
 import lombok.val;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-07-26 13:36
  **/
 public class UnCatchExceptionCollectTask extends AbstractCollectTask {

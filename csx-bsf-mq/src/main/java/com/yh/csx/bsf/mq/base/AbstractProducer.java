@@ -5,11 +5,11 @@ import com.yh.csx.bsf.mq.MQProperties;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-06-12 12:19
  * 生产者抽象
  **/
-public abstract class AbstractProducer  extends AbstractMQ {
+public class AbstractProducer  extends AbstractMQ {
     @Override
     public void close(){
         try

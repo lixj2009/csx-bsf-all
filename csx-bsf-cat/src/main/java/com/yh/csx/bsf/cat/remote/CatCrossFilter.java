@@ -16,7 +16,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-08-30 11:10
  **/
 public class CatCrossFilter implements Filter {

@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
 
 /**
- * @author:
+ * @author: chejiangyi
  * @version: 2019-07-01 19:07
  **/
 @Configuration

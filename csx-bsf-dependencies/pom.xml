@@ -196,15 +196,4 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-		<distributionManagement>
-		<repository>
-			<id>releases</id>
-			<url>http://10.252.193.13:8081/repository/maven-releases/</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshots</id>
-			<name>uc-repository</name>
-			<url>http://10.252.193.13:8081/repository/maven-snapshots/</url>
-		</snapshotRepository>
-	</distributionManagement>
 </project>
